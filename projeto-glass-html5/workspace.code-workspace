@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Programas.C",
+			"path": "..\\..\\Programas.C"
+		},
+		{
+			"name": "Curso HTML 5",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Curso HTML 5"
+	}
+}
