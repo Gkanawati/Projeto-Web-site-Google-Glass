@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>Projeto Google Glass</title>
-    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/specs.css" />
 
 </head>
@@ -25,11 +25,21 @@
             <nav id="menu">
                 <h1>Menu Principal</h1>
                 <ul>
-                    <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/especificacoes.png')"><a href="index.html">Home</a></li>
-                    <li onmouseover="mudaFoto('imagens/especificacoes.png')" onmouseout="mudaFoto('imagens/especificacoes.png')"><a href="index.html" "><a href="specs.html">Especificações</a></li>
-                    <li onmouseover="mudaFoto('imagens/fotos.png')" onmouseout="mudaFoto('imagens/especificacoes.png')"><a href="fotos.html">Fotos</a></li>
-                    <li onmouseover="mudaFoto('imagens/multimidia.png')" onmouseout="mudaFoto('imagens/especificacoes.png')"><a href="multimidia.html">Multimídia</a></li>
-                    <li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/especificacoes.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+                    <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/especificacoes.png')">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li onmouseover="mudaFoto('imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('imagens/especificacoes.png')"><a href="index.html" "><a href="
+                            specs.html">Especificações</a></li>
+                    <li onmouseover="mudaFoto('imagens/fotos.png')" onmouseout="mudaFoto('imagens/especificacoes.png')">
+                        <a href="fotos.html">Fotos</a>
+                    </li>
+                    <li onmouseover="mudaFoto('imagens/multimidia.png')"
+                        onmouseout="mudaFoto('imagens/especificacoes.png')"><a href="multimidia.html">Multimídia</a>
+                    </li>
+                    <li onmouseover="mudaFoto('imagens/contato.png')"
+                        onmouseout="mudaFoto('imagens/especificacoes.png')"><a href="fale-conosco.html">Fale conosco</a>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -45,15 +55,20 @@
                     </hgroup>
                 </header>
 
-                <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+                <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google
+                    Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
 
                 <section id="conteudo">
                     <img src="imagens/glass-esquema-marcado.jpg" usemap="#meu-mapa" />
                     <map name="meu-mapa">
-                        <area alt="mapa" shape="rect" coords="179,202,270,260," href="google-glass.html#tela" target="janela"/>
-                        <area alt="mapa" shape="circle" coords="158,243,12" href="google-glass.html#camera" target="janela" />
-                        <area alt="mapa" shape="circle" coords="73,52,12" href="google-glass.html#gadgets" target="janela" />
-                        <area alt="mapa" shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#sensores" target="janela" />
+                        <area alt="mapa" shape="rect" coords="179,202,270,260," href="google-glass.html#tela"
+                            target="janela" />
+                        <area alt="mapa" shape="circle" coords="158,243,12" href="google-glass.html#camera"
+                            target="janela" />
+                        <area alt="mapa" shape="circle" coords="73,52,12" href="google-glass.html#gadgets"
+                            target="janela" />
+                        <area alt="mapa" shape="poly" coords="28,143,83,216,84,249,27,169"
+                            href="google-glass.html#sensores" target="janela" />
                     </map>
                     <div class="scroll-escondido">
                         <iframe src="google-glass.html" name="janela" id="frame-spec"></iframe>
